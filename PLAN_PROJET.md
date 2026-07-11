@@ -40,11 +40,11 @@ Le site affiche **toujours deux prix** côte à côte :
 - Il a l'impression de faire une affaire, pas de perdre son argent
 - Tu peux même ajouter une badge : "🌍 Servant 12 pays – Prix locaux adaptés"
 
-### Modes de paiement (uniquement Mobile Money)
-- **Orange Money** (priorité #1 selon pays)
-- **MTN Mobile Money**
-- **Moov / Wave / Free Money** selon disponibilité
-- **Pas de carte bancaire** sur le site (trop de friction)
+### Modes de paiement
+- **MTN MoMo** (Bénin : +229 01 62 04 45 24)
+- **MOOV Money**
+- **Carte internationale** (Visa/Mastercard virtuelle)
+- **Pas de carte bancaire physique** sur le site (trop de friction)
 - Pas de Selar non plus pour les locaux (trop compliqué)
 
 ### La méthode "1er visuel gratuit" qui convertit
@@ -88,7 +88,7 @@ Accueil
 
 ### 1.2.b Section spéciale "Pourquoi nous ?"
 ```
-✓ Prix adaptés à l'Afrique (paiement Orange Money / MTN)
+✓ Prix adaptés à l'Afrique (paiement MTN MoMo / MOOV Money)
 ✓ 1er visuel gratuit pour tester
 ✓ Livraison en 24h maximum
 ✓ Créé par un programmeur (compréhension technique)
@@ -246,7 +246,7 @@ Le revenu récurrent :
 - [x] 3 visuels d'exemple générés pour la galerie
 - [x] GitHub Pages activé : https://cideg-dev.github.io/visualboost-studio/
 - [x] WhatsApp : +229 01 64 28 51 72
-- [x] MoMo Bénin : +229 01 62 04 45 24
+- [x] MTN MoMo : +229 01 62 04 45 24
 - [x] Email : davi.ekue@gmail.com
 - [x] Charte : Bleu #1a3c6e / Or #f5a623 / Blanc
 
@@ -264,7 +264,7 @@ Ce qu'il faudra décider/fabriquer ensemble :
 - Projet : studio de création visuelle par IA
 - Clientèle : Afrique (petits commerces, influenceurs, particuliers)
 - Prix : double affichage USD/FCFA
-- Paiement : Mobile Money uniquement (Orange Money, MTN, Moov, Wave)
+- Paiement : MTN MoMo, MOOV Money, Carte internationale
 - Stratégie : 1er visuel gratuit, livraison WhatsApp, pas de plateforme
 - Canaux : TikTok faceless, YouTube Shorts, WhatsApp Business, LinkedIn
 - Objectif court terme : page vitrine + galerie d'exemples
