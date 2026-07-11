@@ -5,6 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>VisualBoost Studio – Création visuelle par IA</title>
   <meta name="description" content="Création de sites vitrines, applis mobiles, logos et visuels par IA. Qualité internationale, prix local. Paiement MTN MoMo / MOOV Money. 1er visuel OFFERT.">
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#0a1f3d">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="VisualBoost">
+  <link rel="apple-touch-icon" href="images/logo.png">
   <link rel="stylesheet" href="css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -38,6 +43,7 @@
         Création de sites & applis<br>
         <span class="hero-sub">par IA – Qualité internationale, prix local</span>
       </h1>
+      <img src="images/hero-visual.png" alt="VisualBoost Studio" class="hero-visual" loading="lazy">
       <p class="hero-desc">
         Sites vitrines, applications mobiles, logos, flyers – conçus par IA, livrés rapidement.
         Paiement par Mobile Money (MTN MoMo, MOOV Money) ou Carte internationale.
@@ -61,10 +67,10 @@
 
   <section id="services" class="section services">
     <div class="container">
-      <h2 class="section-title">Nos services</h2>
-      <p class="section-desc">Des solutions digitales pour booster votre activité</p>
+      <h2 class="section-title reveal">Nos services</h2>
+      <p class="section-desc reveal reveal-delay-1">Des solutions digitales pour booster votre activité</p>
       <div class="services-grid">
-        <div class="service-card popular">
+        <div class="service-card popular reveal reveal-delay-1">
           <div class="popular-badge">⭐ Le plus demandé</div>
           <div class="service-icon">🌐</div>
           <h3>Site vitrine</h3>
@@ -75,7 +81,7 @@
             <span class="price-fcfa">15 000 FCFA</span>
           </div>
         </div>
-        <div class="service-card">
+        <div class="service-card reveal reveal-delay-2">
           <div class="service-icon">📱</div>
           <h3>Application mobile</h3>
           <p>Appli installable sur téléphone (PWA). Galerie, pages personnalisées, prête à l'emploi.</p>
@@ -85,7 +91,7 @@
             <span class="price-fcfa">25 000 FCFA</span>
           </div>
         </div>
-        <div class="service-card">
+        <div class="service-card reveal reveal-delay-3">
           <div class="service-icon">✨</div>
           <h3>Logo / Identité visuelle</h3>
           <p>Logo professionnel généré par IA pour votre marque ou entreprise.</p>
@@ -95,7 +101,7 @@
             <span class="price-fcfa">3 000 FCFA</span>
           </div>
         </div>
-        <div class="service-card">
+        <div class="service-card reveal reveal-delay-4">
           <div class="service-icon">🎨</div>
           <h3>Flyer / Visuel réseau social</h3>
           <p>Pub, annonce, promotion – Parfait pour vos offres et événements.</p>
@@ -105,7 +111,7 @@
             <span class="price-fcfa">2 000 FCFA</span>
           </div>
         </div>
-        <div class="service-card">
+        <div class="service-card reveal" style="transition-delay:0.5s">
           <div class="service-icon">📱</div>
           <h3>Pack réseaux sociaux</h3>
           <p>10 visuels prêts à publier – Story + Post + Bannière</p>
@@ -115,7 +121,7 @@
             <span class="price-fcfa">7 500 FCFA</span>
           </div>
         </div>
-        <div class="service-card">
+        <div class="service-card reveal" style="transition-delay:0.6s">
           <div class="service-icon">🖼️</div>
           <h3>Pack site + appli + logo</h3>
           <p>Solution complète : site vitrine + appli mobile + logo. Tout pour votre présence en ligne.</p>
@@ -129,15 +135,24 @@
     </div>
   </section>
 
+  <section class="section showcase">
+    <div class="container">
+      <div class="showcase-content reveal-scale">
+        <img src="images/gallery-4.jpg" alt="Création visuelle" class="showcase-img" loading="lazy">
+      </div>
+    </div>
+  </section>
+
   <section class="section offer">
     <div class="container offer-container">
-      <div class="offer-badge">🎁 OFFRE SPÉCIALE</div>
-      <h2 class="offer-title">1er visuel <span class="highlight">OFFERT</span></h2>
-      <p class="offer-desc">
+      <img src="images/gallery-5.jpg" alt="Création" class="offer-visual" loading="lazy">
+      <div class="offer-badge reveal">🎁 OFFRE SPÉCIALE</div>
+      <h2 class="offer-title reveal reveal-delay-1">1er visuel <span class="highlight">OFFERT</span></h2>
+      <p class="offer-desc reveal reveal-delay-2">
         Vous hésitez ? On commence par un visuel gratuit.<br>
         Pas de carte bancaire, pas d'abonnement. Juste votre numéro WhatsApp.
       </p>
-      <div class="offer-steps">
+      <div class="offer-steps reveal reveal-delay-3">
         <div class="step">
           <div class="step-num">1</div>
           <p>Contactez-nous sur WhatsApp</p>
@@ -153,7 +168,7 @@
           <p>Recevez votre visuel gratuit</p>
         </div>
       </div>
-      <a href="https://wa.me/2290164285172?text=Bonjour%20VisualBoost%20Studio%20%F0%9F%91%8B%20Je%20veux%20mon%201er%20visuel%20gratuit%20!" class="btn btn-primary btn-large" target="_blank">
+      <a href="https://wa.me/2290164285172?text=Bonjour%20VisualBoost%20Studio%20%F0%9F%91%8B%20Je%20veux%20mon%201er%20visuel%20gratuit%20!" class="btn btn-primary btn-large reveal reveal-delay-4" target="_blank">
         💬 Démarrer mon projet gratuit
       </a>
     </div>
@@ -161,34 +176,37 @@
 
   <section class="section why">
     <div class="container">
-      <h2 class="section-title">Pourquoi nous choisir ?</h2>
+      <h2 class="section-title reveal">Pourquoi nous choisir ?</h2>
+      <div class="why-visual-wrapper">
+        <img src="images/gallery-6.jpg" alt="Showcase" class="why-visual" loading="lazy">
+      </div>
       <div class="why-grid">
-        <div class="why-item">
+        <div class="why-item reveal reveal-delay-1">
           <div class="why-icon">✅</div>
           <h3>Prix adaptés à l'Afrique</h3>
           <p>Paiement en FCFA par Mobile Money (MTN MoMo, MOOV Money)</p>
         </div>
-        <div class="why-item">
+        <div class="why-item reveal reveal-delay-2">
           <div class="why-icon">🌐</div>
           <h3>Sites & applis sur mesure</h3>
           <p>Création de sites vitrines et applis mobiles personnalisées pour votre activité</p>
         </div>
-        <div class="why-item">
+        <div class="why-item reveal reveal-delay-3">
           <div class="why-icon">⚡</div>
           <h3>Livraison rapide</h3>
           <p>Site livré en 48h, appli mobile en 72h max</p>
         </div>
-        <div class="why-item">
+        <div class="why-item reveal reveal-delay-4">
           <div class="why-icon">🤖</div>
           <h3>Créé par un programmeur</h3>
           <p>Compréhension technique et design assisté par IA de pointe</p>
         </div>
-        <div class="why-item">
+        <div class="why-item reveal" style="transition-delay:0.5s">
           <div class="why-icon">🔒</div>
           <h3>Pas d'abonnement</h3>
           <p>Payez une fois, pas de forfait caché ni d'engagement mensuel</p>
         </div>
-        <div class="why-item">
+        <div class="why-item reveal" style="transition-delay:0.6s">
           <div class="why-icon">💰</div>
           <h3>Prix adaptés à l'Afrique</h3>
           <p>Paiement en FCFA par Mobile Money (MTN MoMo, MOOV Money)</p>
@@ -199,17 +217,20 @@
 
   <section id="gallery" class="section gallery">
     <div class="container">
-      <h2 class="section-title">Réalisations</h2>
-      <p class="section-desc">Quelques exemples de créations pour nos clients</p>
+      <h2 class="section-title reveal">Réalisations</h2>
+      <p class="section-desc reveal reveal-delay-1">Quelques exemples de créations pour nos clients</p>
       <div class="gallery-grid">
-        <div class="gallery-item">
-          <img src="images/gallery-1.jpg" alt="Exemple de flyer promotionnel" loading="lazy">
+        <div class="gallery-item reveal reveal-delay-2">
+          <img src="images/gallery-1.jpg" alt="Flyer promotionnel" loading="lazy">
         </div>
-        <div class="gallery-item">
-          <img src="images/gallery-2.jpg" alt="Exemple de logo" loading="lazy">
+        <div class="gallery-item reveal-left reveal-delay-3">
+          <img src="images/gallery-2.jpg" alt="Logo création" loading="lazy">
         </div>
-        <div class="gallery-item">
-          <img src="images/gallery-3.jpg" alt="Exemple de bannière" loading="lazy">
+        <div class="gallery-item reveal-right reveal-delay-4">
+          <img src="images/gallery-3.jpg" alt="Bannière design" loading="lazy">
+        </div>
+        <div class="gallery-item reveal-scale reveal-delay-2">
+          <img src="images/gallery-8.jpg" alt="Création" loading="lazy">
         </div>
       </div>
     </div>
@@ -217,9 +238,9 @@
 
   <section id="pricing" class="section pricing">
     <div class="container">
-      <h2 class="section-title">Tarifs</h2>
-      <p class="section-desc">Qualité internationale – Prix local – Paiement Mobile Money</p>
-      <div class="pricing-table">
+      <h2 class="section-title reveal">Tarifs</h2>
+      <p class="section-desc reveal reveal-delay-1">Qualité internationale – Prix local – Paiement Mobile Money</p>
+      <div class="pricing-table reveal reveal-delay-2">
         <table>
           <thead>
             <tr>
@@ -270,9 +291,12 @@
 
   <section id="about" class="section about">
     <div class="container">
-      <h2 class="section-title">À propos</h2>
+      <h2 class="section-title reveal">À propos</h2>
       <div class="about-content">
-        <div class="about-text">
+        <div class="about-img-wrapper reveal-left">
+          <img src="images/gallery-7.jpg" alt="VisualBoost Studio" class="about-img" loading="lazy">
+        </div>
+        <div class="about-text reveal reveal-delay-1">
           <p>
             <strong>VisualBoost Studio</strong> est un service de création digitale
             fondé par un programmeur passionné de technologie et de design.
@@ -288,16 +312,16 @@
           </p>
         </div>
         <div class="about-stats">
-          <div class="stat">
-            <span class="stat-num">12</span>
+          <div class="stat reveal reveal-delay-2">
+            <span class="stat-num" data-target="12">0</span>
             <span class="stat-label">Pays servis</span>
           </div>
-          <div class="stat">
-            <span class="stat-num">24h</span>
+          <div class="stat reveal reveal-delay-3">
+            <span class="stat-num" data-target="24">0 h</span>
             <span class="stat-label">Livraison max</span>
           </div>
-          <div class="stat">
-            <span class="stat-num">1er</span>
+          <div class="stat reveal reveal-delay-4">
+            <span class="stat-num">✨ 1er OFFERT</span>
             <span class="stat-label">Visuel gratuit</span>
           </div>
         </div>
@@ -307,11 +331,11 @@
 
   <section id="contact" class="section contact">
     <div class="container">
-      <h2 class="section-title">Contactez-nous</h2>
-      <p class="section-desc">
+      <h2 class="section-title reveal">Contactez-nous</h2>
+      <p class="section-desc reveal reveal-delay-1">
         Commandez directement sur WhatsApp – Réponse sous 15 minutes
       </p>
-      <div class="contact-buttons">
+      <div class="contact-buttons reveal reveal-delay-2">
         <a href="https://wa.me/2290164285172?text=Bonjour%20VisualBoost%20Studio%20%F0%9F%91%8B" class="btn btn-primary btn-large" target="_blank">
           💬 Commander sur WhatsApp
         </a>
@@ -319,7 +343,7 @@
           🎁 Demander mon visuel gratuit
         </a>
       </div>
-      <div class="contact-info">
+      <div class="contact-info reveal reveal-delay-3">
         <p>📱 WhatsApp : +229 01 64 28 51 72</p>
         <p>📧 Email : davi.ekue@gmail.com</p>
         <p>⏱️ Disponible : 8h - 22h (GMT+1)</p>
@@ -364,6 +388,12 @@
     </svg>
   </a>
 
-  <script src="js/main.js"></script>
+  <script src="js/script.js"></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('sw.js')
+        .catch(() => {})
+    }
+  </script>
 </body>
 </html>
