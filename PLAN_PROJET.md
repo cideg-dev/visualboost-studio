@@ -222,8 +222,8 @@ Le revenu récurrent :
 
 ## Notes de suivi
 
-- [ ] Date de début : ...
-- [ ] Lien site vitrine : ...
+- [x] Date de début : 11/07/2026
+- [x] Lien site vitrine : https://cideg-dev.github.io/visualboost-studio/
 - [ ] Lien Selar : ...
 - [ ] Comptes TikTok/YouTube : ...
 
@@ -240,9 +240,18 @@ Le revenu récurrent :
 - [x] Clés API enregistrées : `GEMINI_API_KEY`, `ELEVENLABS_API_KEY`
 - [x] FFmpeg installé et opérationnel
 - [x] Fichier `PLAN_PROJET.md` créé avec stratégie et roadmap
+- [x] Logo généré (pollinations.ai)
+- [x] Page vitrine HTML/CSS/JS complète créée dans `docs/`
+- [x] Page FAQ créée
+- [x] 3 visuels d'exemple générés pour la galerie
+- [x] GitHub Pages activé : https://cideg-dev.github.io/visualboost-studio/
+- [x] WhatsApp : +229 01 64 28 51 72
+- [x] MoMo Bénin : +229 01 62 04 45 24
+- [x] Email : davi.ekue@gmail.com
+- [x] Charte : Bleu #1a3c6e / Or #f5a623 / Blanc
 
-### Prochaine étape après redémarrage (S1)
-**Créer la page vitrine du studio**
+### Prochaine étape (S2)
+**Générer le premier pack template + publier sur Selar**
 
 Ce qu'il faudra décider/fabriquer ensemble :
 1. **Nom de l'entreprise** → à choisir
