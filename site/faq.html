@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FAQ – VisualBoost Studio</title>
+  <meta name="description" content="Questions fréquentes sur VisualBoost Studio : paiement, livraison, formats, Mobile Money.">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <style>
+    .faq-list { max-width: 800px; margin: 40px auto 0; }
+    .faq-item { border: 1px solid var(--gray-200); border-radius: var(--radius); margin-bottom: 12px; overflow: hidden; }
+    .faq-question { width: 100%; padding: 20px 24px; background: var(--white); border: none; text-align: left; font-size: 1.05rem; font-weight: 600; color: var(--blue-900); cursor: pointer; display: flex; justify-content: space-between; align-items: center; transition: background 0.2s; }
+    .faq-question:hover { background: var(--gray-50); }
+    .faq-question .arrow { font-size: 1.2rem; transition: transform 0.3s; color: var(--gold-500); }
+    .faq-item.active .faq-question .arrow { transform: rotate(180deg); }
+    .faq-answer { max-height: 0; overflow: hidden; transition: max-height 0.3s ease, padding 0.3s ease; padding: 0 24px; color: var(--gray-600); line-height: 1.7; }
+    .faq-item.active .faq-answer { max-height: 300px; padding: 0 24px 20px; }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="container nav-container">
+      <a href="index.html" class="logo">
+        <img src="images/logo.png" alt="VisualBoost Studio" class="logo-img" loading="lazy">
+        <span class="logo-text">VisualBoost Studio</span>
+      </a>
+      <button class="menu-toggle" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html#services">Services</a></li>
+        <li><a href="index.html#gallery">Galerie</a></li>
+        <li><a href="index.html#pricing">Tarifs</a></li>
+        <li><a href="index.html#about">À propos</a></li>
+        <li><a href="index.html#contact" class="btn-nav">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="section" style="padding-top: 120px;">
+    <div class="container">
+      <h1 class="section-title">FAQ – Questions fréquentes</h1>
+      <p class="section-desc">Tout ce que vous devez savoir avant de commander</p>
+
+      <div class="faq-list">
+        <div class="faq-item active">
+          <button class="faq-question">
+            Comment passer commande ?
+            <span class="arrow">▼</span>
+          </button>
+          <div class="faq-answer">
+            Contactez-nous directement sur WhatsApp. Dites-nous ce dont vous avez besoin (type de visuel, texte, couleurs, dimensions), et nous vous envoyons un devis sous 15 minutes.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            Comment payer ?
+            <span class="arrow">▼</span>
+          </button>
+          <div class="faq-answer">
+            Nous acceptons Orange Money, MTN Mobile Money, Wave et Moov. Le paiement se fait avant livraison pour les nouveaux clients, ou après livraison si vous avez déjà commandé chez nous. Pas de carte bancaire nécessaire.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            C'est quoi le 1er visuel gratuit ?
+            <span class="arrow">▼</span>
+          </button>
+          <div class="faq-answer">
+            Vous nous contactez sur WhatsApp, vous nous dites quel type de visuel vous voulez (flyer, logo, bannière), et nous vous le créons gratuitement. Si vous êtes satisfait, vous pouvez commander les suivants. Aucune obligation, aucune carte bancaire.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            Quels sont les délais de livraison ?
+            <span class="arrow">▼</span>
+          </button>
+          <div class="faq-answer">
+            Livraison sous 24h maximum. La plupart des visuels sont livrés en 2 à 6 heures. Les packs complets peuvent prendre jusqu'à 48h.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            Quels formats recevrai-je ?
+            <span class="arrow">▼</span>
+          </button>
+          <div class="faq-answer">
+            Vous recevez votre création au format PNG ou JPG en haute résolution (1920x1920 ou taille personnalisée selon vos besoins). Pour les logos, nous fournissons aussi un fond transparent.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            Puis-je avoir plusieurs modifications ?
+            <span class="arrow">▼</span>
+          </button>
+          <div class="faq-answer">
+            Oui, 2 modifications gratuites sont incluses par commande. Au-delà, des frais supplémentaires peuvent s'appliquer.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            Qu'est-ce qui est créé par IA exactement ?
+            <span class="arrow">▼</span>
+          </button>
+          <div class="faq-answer">
+            Nous utilisons des IA de pointe (Gemini, Veo 3, Stable Diffusion) pour créer vos visuels. Chaque création est supervisée et ajustée pour garantir un résultat professionnel et adapté à vos besoins.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            Livrez-vous dans toute l'Afrique ?
+            <span class="arrow">▼</span>
+          </button>
+          <div class="faq-answer">
+            Oui ! Nous servons des clients dans 12 pays africains. La livraison est 100% digitale par WhatsApp, donc vous pouvez commander de n'importe où.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-brand">
+        <img src="images/logo.png" alt="VisualBoost Studio" class="footer-logo" loading="lazy">
+        <p>Création visuelle par IA – Qualité internationale, prix local</p>
+      </div>
+      <div class="footer-links">
+        <h4>Liens</h4>
+        <ul>
+          <li><a href="index.html#services">Services</a></li>
+          <li><a href="index.html#gallery">Galerie</a></li>
+          <li><a href="index.html#pricing">Tarifs</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+        </ul>
+      </div>
+      <div class="footer-payments">
+        <h4>Paiements acceptés</h4>
+        <div class="payment-icons">
+          <span class="payment-badge">Orange Money</span>
+          <span class="payment-badge">MTN MoMo</span>
+          <span class="payment-badge">MoMo Bénin</span>
+          <span class="payment-badge">Wave</span>
+          <span class="payment-badge">Moov</span>
+          <span class="payment-badge">Carte internationale</span>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; 2026 VisualBoost Studio – Tous droits réservés</p>
+      </div>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/2290164285172?text=Bonjour%20VisualBoost%20Studio%20%F0%9F%91%8B" class="whatsapp-float" target="_blank" aria-label="WhatsApp">
+    <svg viewBox="0 0 24 24" width="28" height="28" fill="white">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+    </svg>
+  </a>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

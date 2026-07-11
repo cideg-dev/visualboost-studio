@@ -1,0 +1,7 @@
+node_modules/
+.env
+Clé_API.txt
+instal_config_plugin_OpenCode.txt
+*.zip
+.DS_Store
+Thumbs.db
