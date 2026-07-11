@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080">
+  <rect width="1080" height="1080" fill="#ffffff"/>
+  <rect x="0" y="0" width="1080" height="360" fill="#f5a623"/>
+  <text x="540" y="220" text-anchor="middle" font-family="Georgia, serif" font-size="66" font-weight="bold" fill="#1a3c6e">Géométrie</text>
+  <text x="540" y="290" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" fill="rgba(26,60,110,0.7)">📐 Tout pour le dessin technique</text>
+  <g transform="translate(540,500)">
+    <rect x="-220" y="-50" width="440" height="100" rx="12" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1.5"/>
+    <text x="0" y="-15" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#1a3c6e">📏 Compas · Règles · Équerres · Rapporteur</text>
+    <text x="0" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#64748b">Kit complet de géométrie</text>
+  </g>
+  <g transform="translate(540,630)">
+    <rect x="-220" y="-50" width="440" height="100" rx="12" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1.5"/>
+    <text x="0" y="-15" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#1a3c6e">🧮 Calculatrices scientifiques</text>
+    <text x="0" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#64748b">Collège & Lycée</text>
+  </g>
+  <rect x="390" y="760" width="300" height="50" rx="25" fill="#1a3c6e"/>
+  <text x="540" y="792" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff">VisualBoost Studio</text>
+</svg>

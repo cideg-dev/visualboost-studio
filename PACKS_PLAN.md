@@ -149,7 +149,7 @@ Pour chaque pack, suivre ces étapes :
 
 ## ✅ PACK RENTRÉE SCOLAIRE 2026 – FAIT (11/07/2026)
 
-- [x] 1. Générer les visuels (pollinations) – 20/20 visuels
+- [x] 1. Générer les visuels (SVG vectoriel) – 20/20 visuels
 - [x] 2. Compresser en .zip avec nom tagué
 - [x] 3. Créer visuel de présentation du pack (mockup)
 - [ ] 4. Publier statut WhatsApp avec 1 visuel + tags

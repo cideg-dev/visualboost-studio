@@ -1,15 +1,15 @@
 🎒 PACK RENTRÉE SCOLAIRE 2026 – VisualBoost Studio
 ===================================================
 
-20 visuels prêts à publier pour la rentrée scolaire.
+20 visuels vectoriels (SVG) prêts à publier pour la rentrée scolaire.
 
 CONTENU :
 - 5 visuels "Bonne rentrée" génériques (01-05)
 - 10 visuels promotionnels pour commerçants / librairies / boutiques (06-15)
 - 5 visuels "Fournitures scolaires" (16-20)
 
-FORMAT : JPG - Haute résolution
-UTILISATION : WhatsApp, Facebook, Instagram, affichage
+FORMAT : SVG - Vectoriel (qualité parfaite à toutes les tailles)
+UTILISATION : WhatsApp, Facebook, Instagram, impression, affichage
 
 TAGS :
 #RentréeScolaire #Rentrée2026 #École #FournituresScolaires
