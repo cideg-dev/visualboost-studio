@@ -637,21 +637,26 @@ body {
   flex-wrap: wrap;
 }
 
-.offer-visual {
-  max-width: 180px;
+.offer-visual,
+.offer-thumb {
+  width: 160px;
+  height: 160px;
   border-radius: var(--radius-lg);
   box-shadow: 0 8px 30px rgba(0,0,0,0.2);
-  animation: spinIn 1s ease both;
 }
+
+.offer-visual { object-fit: cover; animation: spinIn 1s ease both; }
+
+.offer-thumb {
+  object-fit: contain;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.08);
+}
+.offer-thumb.clip-mixed { border-radius: 0 14px 14px 14px; }
 
 @keyframes spinIn {
   0% { opacity: 0; transform: rotate(-15deg) scale(0.8); }
   100% { opacity: 1; transform: rotate(0deg) scale(1); }
-}
-
-.offer-thumb {
-  max-width: 140px;
-  box-shadow: var(--shadow-lg);
 }
 
 .offer-thumb.clip-mixed {
