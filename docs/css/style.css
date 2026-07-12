@@ -627,11 +627,18 @@ body {
 
 .step-arrow { color: var(--gold-500); font-size: 1.8rem; font-weight: 300; opacity: 0.6; }
 
-/* Offer visual */
+/* Offer images side by side */
+.offer-images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 28px;
+  flex-wrap: wrap;
+}
+
 .offer-visual {
-  max-width: 240px;
-  margin: 0 auto 24px;
-  display: block;
+  max-width: 180px;
   border-radius: var(--radius-lg);
   box-shadow: 0 8px 30px rgba(0,0,0,0.2);
   animation: spinIn 1s ease both;
@@ -642,15 +649,8 @@ body {
   100% { opacity: 1; transform: rotate(0deg) scale(1); }
 }
 
-/* Offer thumb (gallery-4 avec 3 coins arrondis) */
-.offer-img-row {
-  text-align: center;
-  margin-bottom: 16px;
-}
-
 .offer-thumb {
-  max-width: 160px;
-  display: inline-block;
+  max-width: 140px;
   box-shadow: var(--shadow-lg);
 }
 
