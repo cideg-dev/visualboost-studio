@@ -356,14 +356,25 @@ body {
   margin-top: 8px;
 }
 
+.hero-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.hero-text-col { flex: 1; min-width: 300px; }
+
+.hero-img-col { flex-shrink: 0; }
+
 .hero-visual {
-  width: 200px;
-  height: 200px;
-  margin: 0 auto 28px;
+  width: 130px;
+  height: 130px;
   display: block;
   border-radius: 50%;
-  border: 4px solid rgba(255,255,255,0.2);
-  box-shadow: 0 0 50px rgba(245,166,35,0.25), 0 0 100px rgba(245,166,35,0.1);
+  border: 3px solid rgba(255,255,255,0.25);
+  box-shadow: 0 0 40px rgba(245,166,35,0.2), 0 0 80px rgba(245,166,35,0.08);
   object-fit: cover;
   animation: floatHero 4s ease-in-out infinite;
 }
@@ -615,28 +626,6 @@ body {
 
 .step-arrow { color: var(--gold-500); font-size: 1.8rem; font-weight: 300; opacity: 0.6; }
 
-/* Showcase image between sections */
-.showcase {
-  padding: 40px 0;
-  background: var(--gray-50);
-}
-
-.showcase-content {
-  max-width: 700px;
-  margin: 0 auto;
-  border-radius: 0 24px 24px 24px;
-  overflow: hidden;
-  box-shadow: 0 20px 60px rgba(0,0,0,0.15);
-}
-
-.showcase-img {
-  width: 100%;
-  display: block;
-  transition: transform 0.6s;
-}
-
-.showcase:hover .showcase-img { transform: scale(1.03); }
-
 /* Offer visual */
 .offer-visual {
   max-width: 240px;
@@ -732,6 +721,9 @@ body {
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   gap: 28px;
 }
+
+.gallery-item.gallery-clip { border-radius: 0 16px 16px 16px; }
+.gallery-item.gallery-clip:hover { border-radius: 0 20px 20px 20px; }
 
 .gallery-item {
   border-radius: var(--radius-lg);
